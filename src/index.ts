@@ -24,5 +24,7 @@ function female(age: number, weight: number, height: number): number {
 
   if (weight >= predictedWeight) {
     return (predictedWeight + 43) * (22.78 - (0.17 * age));
+  } else {
+    (weight + 43) * (22.78 - (0.17 * age));
   }
 }
