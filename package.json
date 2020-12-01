@@ -1,0 +1,28 @@
+{
+  "name": "@automate-medical/hansen1984",
+  "version": "1.0.0",
+  "description": "A TypeScript implementation of the original Hansen/Wasserman (1984) equations for predicted VO2 peak in cycle-ergometer exercise testing",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Automate-Medical/hansen1984.git"
+  },
+  "author": "Automate Medical Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Automate-Medical/hansen1984/issues"
+  },
+  "homepage": "https://github.com/Automate-Medical/hansen1984#readme",
+  "keywords": ["medical", "lungs", "pulmonary", "cpet"],
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "module": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "main": "index.js"
+}
